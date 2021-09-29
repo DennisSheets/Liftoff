@@ -32,8 +32,8 @@ An Admin will be able to login to add more admins, edit the content on each page
 - [ ] Google Maps API (Google Maps based on a search term, and proximity from a zip code
 - [ ] Google API (language options)
 - [ ] RSS Feed Source unknown API
-- [x] Implement email validation
-- [x] How to manage logins/Roles to determine varying site access.
+- [x] Implement email validation (Spring Mail)
+- [x] How to manage logins/Roles to determine varying site access. (Spring Security)
 - [x] A greater understandingThymeleaf to create a true CMS.
 
 # Project Tracker
