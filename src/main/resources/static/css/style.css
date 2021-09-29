@@ -148,6 +148,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #206bfb;
 }
 
+.navbar #navbar > .active > a {
+    color: #206bfb;
+}
+
+
+
 .navbar .getstarted {
   padding: 10px 25px;
   margin-left: 30px;
@@ -940,6 +946,8 @@ section {
   margin-bottom: 20px;
   padding: 30px 20px;
   background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .team .member img {
@@ -2092,4 +2100,8 @@ tbody tr:hover {
 
 .sidebar-selection-color{
     background-color: #f420fb;
+}
+
+.contact-background{
+    background-color: gray;
 }
