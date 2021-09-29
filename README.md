@@ -3,16 +3,16 @@ The intent of this project is to provide a quasi prioritized to-do list for an e
 
 A users experience starts with a welcome page where they will set a zip code, their preferred language, see a welcome message, and an emigration related news feed. From here, they can drill down on the "Need to Knows" like "get an I-94#" and "Get a Work Permit". Each "Need to Know" link will take them to a page that has brief description, a link of relevant resources, and if appropriate a Google Map of relevant locations with 250 miles".
 
-An Admin will be able to login to add more admins, edit the content on each page, and add new "Need to Knows".
+An Admin will be able to login to add more admins, edit the content on each page, and add new "To-do".
 
 # Features
-- User login: a user can track keymile stones in navigating the the emigration process.
+- User login: a user can track milestones while navigating the emigration process.
 - Admin Login: Admins will be able to manage Logins, edit site content/UI, and add a new "Want To", "FAQ", and "links".
 
-- RSS Feed: The landing page will have a News feed with relevant update news regarding emigration.
-- Add: Admins will have the ability to add a new "Need to Know", which includes a title, description, specific links regarding this topic, and any values needed for the Google API.
-- CMS Edit: Admins will have the ability to edit the landing page, about us, and all "need to knows".
-- Google Maps API: If appropriate, a "Need to Know" page will include a Google Map
+- RSS Feed: The landing page will have a News feed with relevant update regarding emigration.
+- Add: Admins will have the ability to add a new "To-do", which includes a title, description, specific links regarding this topic, and any values needed for the Google API.
+- CMS Edit: Admins will have the ability to edit the landing page, about us, and all "To-do"(s).
+- Google Maps API: If appropriate, a "To-do" page will include a Google Map
 - Google Language API: On the landing page, a user will be able to set the language for the site.
 
 
@@ -23,8 +23,8 @@ An Admin will be able to login to add more admins, edit the content on each page
 - Spring Data JPA & Hibernate (data access layer)
 - Spring Security (authentication)
 - Spring Mail (sending emails to users)
-- Thymeleaf (template enging)
-- HTML5 and Bootstrap (responsive user interface)
+- Thymeleaf (template engine)
+- Bootstrap 
 - MySQL database
 
 # What the Team Will Have to Learn
