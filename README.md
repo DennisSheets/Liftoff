@@ -10,8 +10,8 @@ An Admin will be able to login to add more admins, edit the content on each page
 - Admin Login: Admins will be able to manage Logins, edit site content/UI, and add a new "Want To", "FAQ", and "links".
 
 - RSS Feed: The landing page will have a News feed with relevant update regarding emigration.
-- Add: Admins will have the ability to add a new "To-do", which includes a title, description, specific links regarding this topic, and any values needed for the Google API.
-- CMS Edit: Admins will have the ability to edit the landing page, about us, and all "To-do"(s).
+- Add: Admins will have the ability to add and edit a "To-do", FAQ, and Link .
+- CMS Edit: Admins will have the ability to edit text on the Home Page, To-Do, FAQ, and About Us pages.
 - Google Maps API: If appropriate, a "To-do" page will include a Google Map
 - Google Language API: On the landing page, a user will be able to set the language for the site.
 
@@ -28,12 +28,13 @@ An Admin will be able to login to add more admins, edit the content on each page
 - MySQL database
 
 # What the Team Will Have to Learn
-- [ ] We plan to host this site, so we need to determine an appropriate host, how to generate the appropriate files to upload to the host, and how to configure the host.
+- [ ] How to deploy to Heroku
 - [ ] Google Maps API (Google Maps based on a search term, and proximity from a zip code
 - [ ] Google API (language options)
 - [ ] RSS Feed Source unknown API
+- [x] Implement email validation
 - [x] How to manage logins/Roles to determine varying site access.
-- [x] A much deeper level of Thymeleaf to create a true CMS.
+- [x] A greater understandingThymeleaf to create a true CMS.
 
 # Project Tracker
-https://trello.com/b/scrGqFqr/liftoffaug2021b
+https://trello.com/b/ZuQts9x0/launchcode-liftoff-project
