@@ -36,4 +36,4 @@ An Admin will be able to login to add more admins, edit the content on each page
 - [x] A much deeper level of Thymeleaf to create a true CMS.
 
 # Project Tracker
-https://trello.com/b/scrGqFqr/liftoffaug2021b
+https://trello.com/b/ZuQts9x0/launchcode-liftoff-project
